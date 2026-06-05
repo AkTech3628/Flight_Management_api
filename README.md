@@ -27,6 +27,18 @@ This project is a backend service built with Node.js, Express, and MongoDB that 
 While building this project, I focused on backend architecture fundamentals including API design, service-layer abstraction, database modeling, external API integration, and maintaining a clean separation of concerns.
 
 
+## Environment Variables
+
+Create a `.env` file in the project root and add:
+
+```env
+PORT=3000
+MONGO_URI=your_mongodb_connection_string
+AVIATION_API_KEY=your_api_key
+NODE_ENV=development
+```
+
+
 
 ## High Level Architecture Diagram 
 <img width="1408" height="768" alt="Flight_Mangement_api" src="https://github.com/user-attachments/assets/cb153eee-375e-415c-b9cb-2572e3c9bfc0" />
